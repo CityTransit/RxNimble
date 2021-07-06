@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03CEC7362694EF5400C778E0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7332694EF5400C778E0 /* RxSwift.xcframework */; };
+		03CEC7372694EF5400C778E0 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7332694EF5400C778E0 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC7382694EF5400C778E0 /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7342694EF5400C778E0 /* Nimble.xcframework */; };
+		03CEC7392694EF5400C778E0 /* Nimble.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7342694EF5400C778E0 /* Nimble.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC73A2694EF5400C778E0 /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7352694EF5400C778E0 /* RxTest.xcframework */; };
+		03CEC73B2694EF5400C778E0 /* RxTest.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7352694EF5400C778E0 /* RxTest.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC73C2694EF6500C778E0 /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7342694EF5400C778E0 /* Nimble.xcframework */; };
+		03CEC73D2694EF6500C778E0 /* Nimble.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7342694EF5400C778E0 /* Nimble.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC7402694EF6700C778E0 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC73F2694EF6700C778E0 /* RxBlocking.xcframework */; };
+		03CEC7412694EF6700C778E0 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC73F2694EF6700C778E0 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC7422694EF6E00C778E0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7332694EF5400C778E0 /* RxSwift.xcframework */; };
+		03CEC7432694EF6E00C778E0 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7332694EF5400C778E0 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CEC7452694EF7800C778E0 /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7442694EF7800C778E0 /* Quick.xcframework */; };
+		03CEC7462694EF7D00C778E0 /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CEC7442694EF7800C778E0 /* Quick.xcframework */; };
 		3A2CFEEF218DF97500E4F547 /* ThrowError+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63218F218CE1CE00F190FD /* ThrowError+RxTest.swift */; };
 		3A2CFEF0218DF97500E4F547 /* Expectation+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63218E218CE1CE00F190FD /* Expectation+RxTest.swift */; };
 		3A2CFEF2218DF97500E4F547 /* Equal+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A632190218CE1CE00F190FD /* Equal+RxTest.swift */; };
@@ -21,12 +35,6 @@
 		3A7FDBC3218E37A80065F6C6 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A632180218CE18000F190FD /* AnyError.swift */; };
 		3A7FDBC6218E37A80065F6C6 /* RxNimbleRxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2CFEF9218DF97500E4F547 /* RxNimbleRxTest.framework */; };
 		3AD16F8521866AE7007FF6A8 /* RxNimbleRxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD16F7C21866AE7007FF6A8 /* RxNimbleRxBlocking.framework */; };
-		481CBA2C2263875C007F3053 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481CBA2B2263875C007F3053 /* Nimble.framework */; };
-		481CBA2E2263876F007F3053 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481CBA2D2263876F007F3053 /* Nimble.framework */; };
-		48E1F2D422792ECF00CA7218 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1F2D322792ECF00CA7218 /* RxSwift.framework */; };
-		48E1F2D622792ED400CA7218 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1F2D522792ED400CA7218 /* RxTest.framework */; };
-		48E1F2D822792EDB00CA7218 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1F2D722792EDB00CA7218 /* RxSwift.framework */; };
-		48E1F2DA22792EE000CA7218 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1F2D922792EE000CA7218 /* RxBlocking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +54,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		03CEC73E2694EF6500C778E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03CEC7432694EF6E00C778E0 /* RxSwift.xcframework in Embed Frameworks */,
+				03CEC7412694EF6700C778E0 /* RxBlocking.xcframework in Embed Frameworks */,
+				03CEC73D2694EF6500C778E0 /* Nimble.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA0DBF2694ED950078E15C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03CEC73B2694EF5400C778E0 /* RxTest.xcframework in Embed Frameworks */,
+				03CEC7392694EF5400C778E0 /* Nimble.xcframework in Embed Frameworks */,
+				03CEC7372694EF5400C778E0 /* RxSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03CEC7332694EF5400C778E0 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		03CEC7342694EF5400C778E0 /* Nimble.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Nimble.xcframework; path = Carthage/Build/Nimble.xcframework; sourceTree = "<group>"; };
+		03CEC7352694EF5400C778E0 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		03CEC73F2694EF6700C778E0 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		03CEC7442694EF7800C778E0 /* Quick.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Quick.xcframework; path = Carthage/Build/Quick.xcframework; sourceTree = "<group>"; };
 		3A2CFEF9218DF97500E4F547 /* RxNimbleRxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimbleRxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2CFEFE218DFA7400E4F547 /* RxNimbleRxTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxNimbleRxTest.h; sourceTree = "<group>"; };
 		3A63217F218CE18000F190FD /* RxNimbleRxTestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxNimbleRxTestTests.swift; sourceTree = "<group>"; };
@@ -63,12 +105,6 @@
 		3AD16F0421866404007FF6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AD16F7C21866AE7007FF6A8 /* RxNimbleRxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimbleRxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD16F8421866AE7007FF6A8 /* RxNimbleRxBlockingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxNimbleRxBlockingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		481CBA2B2263875C007F3053 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		481CBA2D2263876F007F3053 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E1F2D322792ECF00CA7218 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E1F2D522792ED400CA7218 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E1F2D722792EDB00CA7218 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E1F2D922792EE000CA7218 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +112,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E1F2D622792ED400CA7218 /* RxTest.framework in Frameworks */,
-				48E1F2D422792ECF00CA7218 /* RxSwift.framework in Frameworks */,
-				481CBA2E2263876F007F3053 /* Nimble.framework in Frameworks */,
+				03CEC73A2694EF5400C778E0 /* RxTest.xcframework in Frameworks */,
+				03CEC7382694EF5400C778E0 /* Nimble.xcframework in Frameworks */,
+				03CEC7362694EF5400C778E0 /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CEC7462694EF7D00C778E0 /* Quick.xcframework in Frameworks */,
 				3A7FDBC6218E37A80065F6C6 /* RxNimbleRxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,9 +131,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E1F2DA22792EE000CA7218 /* RxBlocking.framework in Frameworks */,
-				48E1F2D822792EDB00CA7218 /* RxSwift.framework in Frameworks */,
-				481CBA2C2263875C007F3053 /* Nimble.framework in Frameworks */,
+				03CEC7422694EF6E00C778E0 /* RxSwift.xcframework in Frameworks */,
+				03CEC7402694EF6700C778E0 /* RxBlocking.xcframework in Frameworks */,
+				03CEC73C2694EF6500C778E0 /* Nimble.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CEC7452694EF7800C778E0 /* Quick.xcframework in Frameworks */,
 				3AD16F8521866AE7007FF6A8 /* RxNimbleRxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,12 +223,11 @@
 		3AD16F6421866941007FF6A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48E1F2D922792EE000CA7218 /* RxBlocking.framework */,
-				48E1F2D722792EDB00CA7218 /* RxSwift.framework */,
-				48E1F2D522792ED400CA7218 /* RxTest.framework */,
-				48E1F2D322792ECF00CA7218 /* RxSwift.framework */,
-				481CBA2D2263876F007F3053 /* Nimble.framework */,
-				481CBA2B2263875C007F3053 /* Nimble.framework */,
+				03CEC7442694EF7800C778E0 /* Quick.xcframework */,
+				03CEC73F2694EF6700C778E0 /* RxBlocking.xcframework */,
+				03CEC7342694EF5400C778E0 /* Nimble.xcframework */,
+				03CEC7332694EF5400C778E0 /* RxSwift.xcframework */,
+				03CEC7352694EF5400C778E0 /* RxTest.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,6 +262,7 @@
 				3A2CFEED218DF97500E4F547 /* Sources */,
 				3A2CFEF4218DF97500E4F547 /* Frameworks */,
 				3A2CFEF5218DF97500E4F547 /* Resources */,
+				03EA0DBF2694ED950078E15C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +299,7 @@
 				3AD16F7821866AE7007FF6A8 /* Sources */,
 				3AD16F7921866AE7007FF6A8 /* Frameworks */,
 				3AD16F7A21866AE7007FF6A8 /* Resources */,
+				03CEC73E2694EF6500C778E0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
